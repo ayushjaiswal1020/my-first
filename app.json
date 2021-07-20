@@ -1,0 +1,37 @@
+{
+    "name": "Test Bot Code By me",
+    "description": "This Is a test Python bot you can also make",
+    "keywords": [
+        "telegram",
+        "Earnspaces"
+    ],
+    "website": "https://github.com/ayushjaiswal1020/my-first",
+    "repository": "https://github.com/ayushjaiswal1020/my-first",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        }
+        
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
