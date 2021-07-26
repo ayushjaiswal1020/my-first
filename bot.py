@@ -1,13 +1,10 @@
 from os import environ
 from pyrogram import Client, filters
 
-API_ID = environ.get('API_ID')
-API_HASH = 6e679b44365774a91173a9c45cac3b2a
-BOT_TOKEN = environ.get('BOT_TOKEN')
+
 
 bot = Client('test bot',
-             api_id=3646731,
-             api_hash=API_HASH,
+             
              bot_token=1785476005:AAEoPNc1KjLf_TDquxSjyPgutN2dbZag2EE,
              workers=50,
              sleep_threshold=10)
