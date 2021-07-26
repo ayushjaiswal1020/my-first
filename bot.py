@@ -6,9 +6,9 @@ API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
 
 bot = Client('test bot',
-             api_id=API_ID,
-             api_hash=API_HASH,
-             bot_token=BOT_TOKEN,
+             api_id=3646731,
+             api_hash=6e679b44365774a91173a9c45cac3b2a,
+             bot_token=1785476005:AAEoPNc1KjLf_TDquxSjyPgutN2dbZag2EE,
              workers=50,
              sleep_threshold=10)
 
