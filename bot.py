@@ -4,8 +4,9 @@ from pyrogram import Client, filters
 
 
 bot = Client('test bot',
-             
-             bot_token=1785476005:AAEoPNc1KjLf_TDquxSjyPgutN2dbZag2EE,
+             api_id=3646731,
+             api_hash='6e679b44365774a91173a9c45cac3b2a',
+             bot_token='1785476005:AAEoPNc1KjLf_TDquxSjyPgutN2dbZag2EE',
              workers=50,
              sleep_threshold=10)
 
